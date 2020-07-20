@@ -1,0 +1,54 @@
+@import url(archivo.css);
+h2 {
+  font: 24px "roboto";
+  color: #26884f; }
+
+/* NEWSLETTER */
+.home-newsletter {
+  padding: 80px 0;
+  background: #464545;
+  margin-top: 40px;
+  margin-bottom: 40px; }
+  .home-newsletter .single {
+    max-width: 650px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    z-index: 2; }
+    .home-newsletter .single h3 {
+      font-size: 18px;
+      color: white;
+      text-transform: uppercase;
+      margin-bottom: 40px; }
+      .home-newsletter .single h3 .form-control {
+        height: 50px;
+        background: rgba(255, 255, 255, 0.6);
+        border-color: transparent;
+        border-radius: 20px 0 0 20px; }
+        .home-newsletter .single h3 .form-control .form-control:focus {
+          box-shadow: none;
+          border-color: #243c4f; }
+        .home-newsletter .single h3 .form-control .btn {
+          min-height: 50px;
+          border-radius: 0 20px 20px 0;
+          background: #243c4f;
+          color: #fff; }
+
+/* LIFESTYLE INDEX */
+.bg-no-overlay {
+  margin-top: 50px;
+  margin-bottom: 40px;
+  background: url(../img/img30.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  color: #fff;
+  height: 450px;
+  padding-top: 250px; }
+
+.btn3 a {
+  text-decoration: none; }
+
+/* OPERACIONES */
+p {
+  color: grey; }
